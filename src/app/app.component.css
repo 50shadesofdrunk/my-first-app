@@ -49,7 +49,7 @@ input[type="text"] {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;  /* Optional: Full viewport height */
+  height: 50vh;  /* Optional: Full viewport height */
 }
 
 
@@ -76,16 +76,7 @@ input[type="text"]:focus + .name-display {
 .name-display::before {
   content: "Name: ";
   font-weight: bold;
+  background-color: #007bff;
 }
 
-/* Keyframe Animation */
-@keyframes focusEffect {
-  0% {
-    background-color: #f9f9f9;
-    transform: scale(1);
-  }
-  100% {
-    background-color: #e6f7ff;
-    transform: scale(1.05);
-  }
-}
+

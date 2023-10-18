@@ -1,0 +1,39 @@
+/*  */
+.Main {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+
+}
+
+input[type="text"] {
+  width: 300px;
+  height: 50px;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+
+}
+
+
+.Menu {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  text-emphasis: bold; color: rgb(221, 10, 38);
+
+}
+
+/*  */
+.joke {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  text-emphasis: bold; color: rgb(99, 10, 216);
+
+}
